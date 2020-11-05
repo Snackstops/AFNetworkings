@@ -25,7 +25,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AFOfficialWebsite : UIViewController
 +(instancetype)shareWebsite;
-@property (nonatomic, copy) NSMutableDictionary *datainfo;
 @property (nonatomic, strong) AFHTTPParameters *parameters;
 @end
 

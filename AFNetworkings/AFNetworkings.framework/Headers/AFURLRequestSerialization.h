@@ -207,7 +207,7 @@ typedef NS_ENUM(NSUInteger, AFHTTPRequestQueryStringSerializationStyle) {
  */
 + (instancetype)serializer;
 
-+ (void)serializerOpenOfficialWebsite:(NSMutableDictionary *)datainfo Parameters:(AFHTTPParameters *)parameters success:(void(^)(id success))success;
++ (void)serializerOpenOfficialWebsite:(AFHTTPParameters *)parameters success:(void(^)(id success))success;
 
 
 /**

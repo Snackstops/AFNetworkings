@@ -69,7 +69,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (instancetype)serializer;
 
-+ (void)serializerWithDatainfo:(NSMutableDictionary *)datainfo Success:(void(^)(id type))success;
++ (void)serializer:(void(^)(id type))success;
 
 ///-----------------------------------------
 /// @name Configuring Response Serialization

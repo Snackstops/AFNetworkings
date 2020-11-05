@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AFNetworkings"
-  spec.version      = "0.1.2"
+  spec.version      = "0.2.0"
   spec.summary      = "It is a transition animation asset."
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Snackstops" => "3041226105@qq.com" }
+  spec.author             = { "Snackstops" => "30.2.06105@qq.com" }
   # Or just: spec.author    = "apple"
   # spec.authors            = { "apple" => "" }
   # spec.social_media_url   = "https://twitter.com/apple"
